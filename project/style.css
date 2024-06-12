@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1382dc;
+    color: #0f1010;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #15d4da;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.booking {
+    background: url('bus-background.jpg') no-repeat center center/cover;
+    color: #18c5f5;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.booking h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.booking p {
+    margin: 10px 0 20px;
+}
+
+.booking form {
+    display: flex;
+    justify-content: center;
+}
+
+.booking input, .booking button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+}
+
+.booking button {
+    background-color: #c25909;
+    color: #18b0f1;
+    cursor: pointer;
+}
+
+.advantages, .popular-tickets {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.advantage-list, .ticket-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.advantage-item, .ticket-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.advantage-item img, .ticket-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ticket-item p {
+    margin: 10px 0;
+}
+
+.ticket-item span {
+    font-weight: bold;
+}
+
+
